@@ -12,7 +12,7 @@ bot.on('message', message =>{
     if(message.author.id != "508868117661745153" && message.channel.id === "523846074507460610"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "points" && message.channel.id === "523846074507460610"){
-                message.channel.send('{user} You have ```0``` point left...!') // Sends a message to the channel, with the content
+                message.channel.send('{mention user} You have ```0``` point left...!') // Sends a message to the channel, with the content
             }
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
