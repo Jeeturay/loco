@@ -15,7 +15,7 @@ bot.on('message', message =>{
 
                 message.channel.send('{user}
                                      you have `0` point left...!
-                                     made by ❤️ RITESH KUMAR RAY.!') // Sends a message to the channel, with the content
+made by RITESH KUMAR RAY.!') // Sends a message to the channel, with the content
             }
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
