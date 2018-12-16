@@ -15,12 +15,9 @@ bot.on('message', message =>{
                 message.channel.send('You have ```0``` point left...!') // Sends a message to the channel, with the content
             }
      
-       if(msg.startsWith('>', 0)){
-            if(msg === prefix + "point" && message.channel.id === "523846074507460610"){
-                message.channel.send('You have ```1837372829``` point left...!') // Sends a message to the channel, with the content
-            }
+
            else{
-                message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
+                message.channel.send("Hey, I only understand >points right now. More will be added when my creator is free. :) ")
             }
         }
         else{
