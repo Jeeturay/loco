@@ -11,9 +11,11 @@ bot.on('message', message =>{
 
     if(message.author.id != "508868117661745153" && message.channel.id === "523729600602308639"){
         if(msg.startsWith('>', 0)){
-            if(msg === prefix + "bang" && message.channel.id === "523729600602308639"){
+            if(msg === prefix + "points" && message.channel.id === "523729600602308639"){
 
-                message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
+                message.channel.send('{user}
+                                     you have `0` point left...!
+                                     made by ❤️ RITESH KUMAR RAY.!') // Sends a message to the channel, with the content
             }
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
