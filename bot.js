@@ -12,10 +12,10 @@ bot.on('message', message =>{
     if(message.author.id != "508868117661745153" && message.channel.id === "523846074507460610"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "help"&& message.channel.id === "523846074507460610"){
-                message.channel.send('1-10 points 3 rs. 
-                                     1 point 1 loco live❤️
-                                     paytm number
-                                       8076630337') // Sends a message to the channel, with the content
+                message.channel.send('1-10 points 3 rs. 1 point 1 life paytm number 8076630337')
+
+                                    
+                                        // Sends a message to the channel, with the content
             }
      
 
