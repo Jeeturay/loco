@@ -12,7 +12,7 @@ bot.on('message', message =>{
     if(message.author.id != "508868117661745153" && message.channel.id === "525541987299098634"){
         if(msg.startsWith('>', 0)){
             if(msg === prefix + "buy" && message.channel.id === "525541987299098634"){
-                message.channel.send('**__Sahil Rana & Ritesh Loco life dm....!!__**') // Sends a message to the channel, with the content
+                message.channel.send('**__Go and do personal DM  to @jack_o_lanternSasainformation_sourceL registeredaNajack_o_lantern#8333 or  @Alexa for all trivia life __**') // Sends a message to the channel, with the content
             }
             else{
                 message.channel.send("Hey, I only understand >bang right now. More will be added when my creator is free. :) ")
