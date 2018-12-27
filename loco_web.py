@@ -93,4 +93,4 @@ async def helpu():
         embed.add_field(name="Usage of !forcoins",value="!forcoins,  Send Friend Request to my-loco username \n After Request sent type command followed by username",inline=False)
         await client.say(embed=embed)
    
-client.run('NTA4ODY4MTE3NjYxNzQ1MTUz.DwX4-w.XxXJm-F2d0FYD1euITeKEacW_6k')
+client.run('NTA4ODY4MTE3NjYxNzQ1MTUz.DwX7JQ.pA9JsK2WeocTwIk564QGeDhsoiM')
